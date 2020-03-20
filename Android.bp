@@ -19,6 +19,7 @@
 cc_library_shared {
     name: "libexif",
     vendor_available: true,
+    recovery_available: true,
     vndk: {
         enabled: true,
     },
